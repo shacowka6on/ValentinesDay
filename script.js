@@ -1,4 +1,4 @@
-import JSConfetti from './confetti.js'; // Adjust the path if necessary
+import JSConfetti from './confetti.js'; 
 
 const confettiInstance = new JSConfetti();
 
@@ -19,7 +19,6 @@ document.addEventListener("DOMContentLoaded", () => {
 function randomizeButtonPosition() {
     const windowWidth = window.innerWidth;
     const windowHeight = window.innerHeight - 500;
-    console.log(window.innerHeight);
 
     const randomTop = Math.floor(Math.random() * (windowHeight - 50));
     const randomLeft = Math.floor(Math.random() * (windowWidth - 100));
