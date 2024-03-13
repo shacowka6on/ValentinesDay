@@ -25,7 +25,7 @@ function randomizeButtonPosition() {
 
     noButton.style.top = randomTop + "px";
     noButton.style.left = randomLeft + "px";
-
+    noButton.style.transition = "0.5s";
 }
 
 noButton.addEventListener("mouseenter", randomizeButtonPosition);
